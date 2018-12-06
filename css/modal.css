@@ -1,0 +1,81 @@
+/* This css style sheet is used to set the position and the layout of 
+the modal. */
+
+.win-modal {
+  position: absolute;
+  top: calc(50vh - 150px);
+  left: calc(50vw - 200px);
+  width: 400px;
+  height: 300px;
+  background: white;
+  z-index: 500;
+  box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9);
+}
+
+
+
+.win-modal-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 380px;
+  color: #1a5f6fe6;
+  /* border: 3px solid; */
+}
+
+
+.win-modal-overlay {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 50;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+
+.win-modal .modal-close-button {
+  border: 0;
+  background: green;
+  width: 60px;
+  color: white;
+  font-size: 15px;
+  border-radius: 0.2rem;
+}
+
+
+.p1 {
+  margin: 20px 0 0 50px;
+  color: red;
+  font-size: 20px;
+}
+
+
+.p2 {
+  margin: 40px 0 0 35px;
+}
+
+.p3 {
+  margin: 55px 0 0 250px;
+}
+
+/* This sets the modal heading */
+.modalHeading {
+  margin: 50px 0 20px 35px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+/* This is to display or close the Modal */
+.closed {
+  display: none;
+}
+
+
+/* This is to display or close the Modal */
+.opened {
+  display: block;
+}

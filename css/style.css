@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+.article {
+    font-size: 18px;
+    color: rgb(18, 78, 146);    
+}
+
+.article-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.article-col {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+}
+
+canvas { 
+    width: 505px;
+    height: 606px;
+}
+
+.header-title {    
+    color: rgb(18, 78, 146);  
+
+}
+
+.main-title .main-nav {
+    font-size: 18px;
+    color: rgb(18, 78, 146);
+
+}
+
+.time {
+    padding-left: 0;
+    padding-right: 150px;
+    font-size: 18px;
+    color: rgb(18, 78, 146);       
+}
+
+#article-icons-restart {
+    padding-left: 150px;
+    padding-right: 0;
+    color: rgb(18, 78, 146);  
+    cursor: pointer;
+}
+
+
+.game-not-start {
+    color: green;
+}
+
+.game-start {
+    color: red;
+}
