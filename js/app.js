@@ -221,11 +221,11 @@ function gameSetUp() {
     }
     else if(document.querySelector("#hard").checked){
         levels = "Hard";
-        noOfBugs = 8;
+        noOfBugs = 7;
         treshold = 6;
         speedMax = 550;
         speedMin = 400;
-        yaxes = [firstRow, secondRow, thirdRow, firstRow, thirdRow, firstRow, firstRow];
+        yaxes = [firstRow, secondRow, thirdRow, firstRow, thirdRow, firstRow];
     }
     
     
