@@ -52,6 +52,9 @@ Below lists the variables and their use.
 
     There is no order preferences, you can order the item anyway you like.
 
+<img src="images/frogger.png" alt="Frogger Arcade"/>
+<img src="images/frogger2.png" alt="Frogger Arcade finish"/>
+
 ## References
 
 * fonts or incons
