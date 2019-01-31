@@ -15,7 +15,7 @@ create a folder (for example `Game`) and copy the folder `css` , `images` , `js`
 
 ## Project Link
 
- * [My Reads](https://javascipt-project3.netlify.com/)
+ * [Frogger Arcade](https://javascipt-project3.netlify.com/)
 
 
 ## Instructions
