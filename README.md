@@ -13,6 +13,10 @@
 The game runs on any browser or mobile devices. You can just click on the `index.html` file and play. If you choose to install it on the web server. You can
 create a folder (for example `Game`) and copy the folder `css` , `images` , `js` and the file `index.html` and paste it inside the `Game` folder. Copy the `Game` folder to the root directory of the web server. Inorder to access the web site for example `localhost`: you just need to type in `http://localhost/Game/index.html`.
 
+## Project Link
+
+ * [My Reads](https://javascipt-project3.netlify.com/)
+
 
 ## Instructions
 
